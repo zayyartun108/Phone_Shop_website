@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div class="upbtn">
+        <a href="#"><i class='bx bxs-chevrons-up'></i></a>
+    </div>
+    <header>
+        
+        <h1>Mobile Phone</h1>
+        <div class="menu-icon">
+            <i class="bx bx-menu"></i>
+        </div>
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#promotion">Promotion</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="register">
+            <div class="searchbox ">
+                <form action="">
+                    <input class="input" type="text" placeholder="Search...">
+                    <div class="searchlist">
+                        <div>
+                            <h2>Recent Search</h2>
+                        </div>
+                        <ul id="recent">
+
+                        </ul>
+                        <div class="filter">
+                            <h4 class="h4">Filter Your Search</h4>
+                            <div class="filt">
+                                <div class="filterlist">
+                                    <i class='bx bx-history'></i>
+                                    <h4>History</h4>
+                                </div>
+                                <div class="filterlist">
+                                    <i class='bx bx-star'></i>
+                                    <h4>Favorites</h4>
+                                </div>
+                                <div class="filterlist">
+                                    <i class='bx bxs-purchase-tag'></i>
+                                    <h4>Tag</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button">Search</button>
+                </form>
+
+            </div>
+            <a href="#">register</a>
+        </div>
+    </header>
+    <!--Navbar and Header ENd-->
+   
+    <section class="home" id="home">
+        
+        <div class="homeright">
+
+            <div class="container">
+                <div class="box">
+                    <div class="card" id="front">OPPO</div>
+                    <div class="card" id="back">Vivo</div>
+                    <div class="card" id="left">Mi</div>
+                    <div class="card" id="right">Redmi</div>
+                    <div class="card" id="top">Apple</div>
+                    <div class="card" id="bottom">Techno</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="homeleft">
+            <h1>Genious Mobile<br> Shop</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque praesentium rem aut doloribus laboriosam
+                at assumenda odio veniam beatae qui.</p>
+            <div>
+                <button type="button">Go Shop</button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--Homesection End-->
+    <!--Promotion Section Start-->
+    <section class="promotion" id="promotion">
+        <div class="heading">
+            <h1>Promotion</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid perferendis minima voluptatibus
+                distinctio excepturi.</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper much">
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--promotin end-->
+    <!--service start-->
+    <section class="services" id="services">
+        <div class="heading">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid perferendis minima voluptatibus
+                distinctio excepturi.</p>
+        </div>
+        <div class="servicetext">
+            <div class="servicebox">
+                <div>
+                    <i class='bx bxs-shield-alt-2'></i>
+
+                </div>
+                <h1>Insurance</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quis?</p>
+            </div>
+            <div class="servicebox">
+                <div>
+                    <i class='bx bx-checkbox-square'></i>
+                </div>
+
+                <h1>In Installments</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quis?</p>
+
+            </div>
+            <div class="servicebox">
+                <div>
+                    <i class='bx bx-crosshair'></i>
+
+                </div>
+                <h1>Gif</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quis?</p>
+
+            </div>
+            <div class="servicebox">
+                <div>
+                    <i class='bx bx-selection'></i>
+
+                </div>
+                <h1>Free Software</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, quis?</p>
+
+            </div>
+        </div>
+    </section>
+    <!--service section end-->
+    <!--about section start-->
+    <section class="about" id="about">
+        <div class="heading">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid perferendis minima voluptatibus
+                distinctio excepturi.</p>
+        </div>
+        <div class="aboutcontainer">
+            <div class="profile">
+                <div class="connect">
+                    <img src="643399.jpg" alt="">
+                    <div class="connectlist">
+                        <h2>Email: arena@gmail.com</h2>
+                        <h2>Phone: +959 543 134 34</h2>
+                        <div>
+                           <i class='bx bxl-facebook-square' ></i>
+                        <i class='bx bxl-telegram' ></i>
+                        <i class='bx bxl-tiktok'></i>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="aboutme">
+                    <h1>Company: <span>Genious Phone Shop</span></h1>
+                    <h1>Local: <span>Yangon</span></h1>
+                    <h1>Current: <span>Road to Global</span></h1>
+                    <h1>Support: <span>Human for important</span></h1>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="code">
+                    <h1>Village Shop and support percentage</h1>
+                    <div>
+                      <div></div> 
+                    </div>
+                    
+                </div>
+                <div class="code">
+                    <h1>Global Shop and support percentage</h1>
+                    <div><div></div></div>
+                </div>
+                <div class="code">
+                    <h1>Local Shop and support percentage</h1>
+                    <div><div></div></div>
+                </div>
+                <div class="code">
+                    <h1>City Shop and support percentage</h1>
+                    <div><div></div></div>
+                </div>
+                <div class="heading">
+                    <h1>About Company</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quam, vel esse explicabo sit nulla, ducimus nisi aliquid dolor est expedita quo velit libero sint corrupti numquam, quia repellat ipsam.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid perferendis minima voluptatibus
+                distinctio excepturi.</p>
+        </div>
+        <div class="contactbox">
+            <form action="">
+                <div class="bxbox">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="bxbox">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Phone">
+                </div>
+                <div class="box">
+
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button type="button">Send</button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+<!--footerStart-->
+    <div class="footer">
+        <p>Copyright by Megasnapper</p>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+
+            loop: true,
+            slidesPerView: 5,
+            spaceBetween: 30,
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
